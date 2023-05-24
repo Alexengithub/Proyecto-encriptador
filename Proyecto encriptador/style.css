@@ -1,3 +1,7 @@
+.logo{
+margin: 50px 50px 50px 50px;
+}
+
 body{
     background-color:lightblue;
 }   
@@ -5,9 +9,63 @@ body{
 .areatexto{
    background-color: lightblue;
    border-color:lightblue;
+   margin-left: 10px;
+   margin-bottom: 10em;
 }
 
-button{
-    color: blueviolet;
+.areatexto::placeholder{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.rectanguloblanco{
+    float: right;
+    margin: auto;
     
+}
+
+.botonencriptar{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    left: 10em;
+    
+}
+
+.botondesencriptar{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    left: 10em;
+}
+
+#muñeco{
+    
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        object-fit: cover;
+}
+
+.autor{
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
 }
